@@ -14,6 +14,13 @@
   Then alert your name using dot notation.
 */
 
+let me = {
+  name: 'Whitney',
+  age: 29
+}
+alert.name
+
+
 //Code here
 
 ////////// PROBLEM 2 //////////
@@ -22,14 +29,24 @@
   Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday.
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
+let favoriteThings = { 
+  band: 'led zeppelin', 
+  food: 'pizza',
+  person: 'whitney',
+  book: 'harry potter',
+  movie: 'pulp fiction',
+  holiday: 'disneyland'
+  
 
+}
 //Code here
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
-
+favoriteThings.car = 'deisel'
+favoriteThings.brand = 'gmc'
 //Code here
 
 /*
@@ -37,7 +54,8 @@
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'//Code here
 
 ////////// PROBLEM 3 //////////
 
@@ -49,12 +67,20 @@
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
 */
 
+let backPack = {
+
+}
+let item = 'firstPocket'
+backPack[item] = 'chapstick'
+backPack.color = 'pink'
+
+
 //Code here
 
 /*
   After you do the above, alert your entire backPack object.
 */
-
+backPack.alert
 //Code here
 
 /*
@@ -62,7 +88,7 @@ You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console.
 */
-
+console.log(backPack)
 //Code here
 
 ////////// PROBLEM 4 //////////
@@ -83,7 +109,8 @@ var user2 = {
   name -> 'Bryan G. Smith' and email -> 'bryan.smith@devmounta.in'.
   Make that change without modifying the original object code above.
 */
-
+user2.name = 'Bryan G. Smith'
+user2.email = 'bryan.smith@devmounta.in'
 //Code Here
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
